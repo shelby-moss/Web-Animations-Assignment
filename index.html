@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is the website I will use for my final project">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Lexend+Deca:wght@300&family=Open+Sans+Condensed:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Home</title>
+</head>
+
+<body>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="about/index.html">About</a></li>
+    <li><a href="form/index.html">Form</a></li>
+  </ul>
+  <div class="hero">
+    <picture>
+      <source srcset="images/1600px.jpg" media="(min-width: 901px)">
+      <source srcset="images/900px.jpg" media="(min-width: 501px)">
+      <source srcset="images/500px.jpg" media="(max-width: 500px)">
+
+      <img src="1600px.jpg" alt="The spires of Capitol Reef">
+    </picture>
+    <div class="overlay">
+      <h1>Shelby's Photography</h1>
+      <p>A collection of my best work</p>
+    </div>
+  </div>
+
+  <!--add link, alt, width and height attributes-->
+
+  <!--card #1-->
+  <div class="cards">
+    <div class="card">
+      <a>
+        <img src="images/B&W-card-400px.jpg" loading="lazy" alt="black and white images">
+        <p>
+          Black & White
+        </p>
+      </a>
+    </div>
+
+    <!--card #2-->
+    <div class="card">
+      <a>
+        <img src="images/Detail-card-400px.jpg" loading="lazy" alt="detailed images">
+        <p>
+          Details
+        </p>
+      </a>
+    </div>
+
+    <!--card #3-->
+    <div class="card">
+      <a>
+        <img src="images/nature-card-400px.jpg" loading="lazy" alt="nature images">
+        <p>
+          Nature
+        </p>
+      </a>
+    </div>
+
+    <!--card #4-->
+    <div class="card">
+      <a>
+        <img src="images/portrait-card-400px.jpg" loading="lazy" alt="portrait images">
+        <p>
+          Portrait
+        </p>
+      </a>
+    </div>
+
+  </div>
+
+  <!--need to add footer??-->
+  <footer>
+    <p>Email me at shelby@email.com</p>
+  </footer>
+</body>
+
+</html>
